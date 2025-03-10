@@ -18,7 +18,7 @@ const payloadReturnData = (company, area = null, nameCompany = null) => {
     area: area.NOMBRE_AREA || 'Sin área',
     rut_worked: company.rut_trabajador,
     name_worked: company.name_worker,
-    age: area.SUELDO,
+    age: company.age,
     profession: company.profession,
     position: company.position,
     salary: area.SUELDO,

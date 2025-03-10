@@ -18,7 +18,7 @@ export class Company {
   name_worker: string;
 
   @Column()
-  edad: number;
+  age: number;
 
   @Column()
   profesion: string;
